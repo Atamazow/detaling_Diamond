@@ -1,0 +1,25 @@
+.wrapperlogo_border {
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader {
+    width: 100px;
+}
+
+.borderVertikal {
+    border-right:  3px solid black;
+    width: 1px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.logoDD {
+    font-size: 70px;
+    margin-left: 30px;
+}
+
+.logoTitle {
+    font-size: 35px;
+}
+
