@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import "../styles.css";
+import logoPhone from "../assets/icon/WDB+Fractal+Diamond.png";
 function Home(props) {
   return (
     <div>
@@ -19,6 +20,11 @@ function Home(props) {
         <div className="intro_content_wrapper">
           <div className="intro_content">
             <Header />
+          </div>
+        </div>
+        <div className="logoPhone_wrapper">
+          <div className="logoPhoneDiamond">
+            <img className="logoPhone" src={logoPhone} alt="" />
           </div>
         </div>
       </div>

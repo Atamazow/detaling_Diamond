@@ -3,13 +3,16 @@
     margin: 0;
 
 }
-.intro_content_wrapper {
+.intro_content {
     width: 1400px;
     margin: 40px auto;
     z-index: 10;
     color: white;
     position: relative;
+}
 
+.intro_content_wrapper {
+    position: relative;
 }
 .intro-media {
     position: absolute;
@@ -26,8 +29,6 @@
     min-width: 100%;
     min-height: 100%;
     transform: translate(-50%, -50%);
-
-
 }
 .intro {
     height: 100vh;
@@ -47,3 +48,27 @@
     height: 150%
 }
 
+.logoPhone_wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.logoPhoneDiamond {
+    cursor: pointer;
+    right: 40px;
+    position: fixed;
+    bottom: 40px;
+}
+
+.logoPhone:hover {
+    width: 100px;
+    transition: .5s;
+    overflow: hidden;
+}
+.logoPhone {
+    width: 70px;
+    transition: .5s;
+}
