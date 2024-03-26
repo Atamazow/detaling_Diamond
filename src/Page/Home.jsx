@@ -28,6 +28,16 @@ function Home(props) {
           </div>
         </div>
       </div>
+      <div className="header_title_wrapper">
+        <div className="header_title_text">
+          <div className="header_title">Детейлинг высокого класса</div>
+          <p className="header_text">
+            Для самых требовательных автолюбителейИсключительный уход за кузовом
+            и салоном вашего автомобиля
+          </p>
+          <div className="header_btn">Записаться</div>
+        </div>
+      </div>
     </div>
   );
 }
