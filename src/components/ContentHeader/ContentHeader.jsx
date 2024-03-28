@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Header/Header";
 import logoPhone from "../../assets/icon/WDB+Fractal+Diamond.png";
+import ModalWindow from "../ModalWindow/ModalWindow";
 
 function ContentHeader(props) {
+  const [isModalOpen, setIsModalOpen] = useState(true);
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <div>
       <div className="intro_content_wrapper">
+        {isModalOpen && (
+          <ModalWindow
+            isModalOpen={isModalOpen}
+            setIsModalOpen={setIsModalOpen}
+            closeModal={closeModal}
+          />
+        )}
         <div className="intro_content">
           <Header />
         </div>
@@ -22,7 +34,9 @@ function ContentHeader(props) {
             Для самых требовательных автолюбителей Исключительный уход за
             кузовом и салоном вашего автомобиля
           </p>
-          <div className="header_btn">Записаться</div>
+          <div className="header_btn" onClick={openModal}>
+            Записаться
+          </div>
         </div>
       </div>
     </div>

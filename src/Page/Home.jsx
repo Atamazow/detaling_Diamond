@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "../components/Header/Header";
 import "../styles.css";
-import logoPhone from "../assets/icon/WDB+Fractal+Diamond.png";
 import ContentHeader from "../components/ContentHeader/ContentHeader";
 function Home(props) {
   return (
@@ -13,9 +11,7 @@ function Home(props) {
           loop
           autoPlay
           className="video_media"
-        >
-          das
-        </video>
+        ></video>
       </div>
       <ContentHeader />
     </div>

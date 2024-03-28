@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./ModalWindow.module.css";
-function ModalWindow({ onClose, children }) {
+import CloseIcon from "@mui/icons-material/Close";
+import ModalContent from "./ModalContent/ModalContent";
+
+function ModalWindow({ closeModal, setIsModalOpen }) {
+  // useEffect(() => {
+  //   const closeModalClick = (e) => {
+  //     if (e.target.id === "modal_backdrop") closeModal();
+  //   };
+  //   window.addEventListener("click", closeModalClick);
+  //   return () => window.removeEventListener("click", closeModalClick);
+  // }, [isModalOpen]);
+  // if (!isModalOpen) return null;
+  const handleModalClick = () => setIsModalOpen(false);
   return (
-    <div className={styles.modal - backdrop}>
-      <div className="modal">{children}</div>
-      <div>X</div>
+    <div onClick={handleModalClick} className={styles.modal_backdrop}>
+      <div className={styles.modal}>
+        <div>
+          <ModalContent />
+        </div>
+        <CloseIcon className={styles.closeICon} onClick={closeModal} />
+      </div>
     </div>
   );
 }
