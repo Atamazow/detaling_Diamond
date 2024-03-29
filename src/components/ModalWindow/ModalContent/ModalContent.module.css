@@ -1,0 +1,50 @@
+.wrapper_data {
+
+}
+
+.name > input,.lastName > input,.email > input {
+    width: 500px;
+    background-color: transparent;
+    z-index: 30;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
+
+.dataSize {
+    font-size: 18px;
+    color: white;
+}
+
+.lastName {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.data_title {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.dataBtn {
+    width: 500px;
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid #38ff00;
+    color: #38ff00;
+    cursor: pointer;
+    padding: 20px 0;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.dataBtn:hover {
+    background-color: #38ff00;
+    color: white;
+    transition: .5s;
+    font-size: 20px;
+}
