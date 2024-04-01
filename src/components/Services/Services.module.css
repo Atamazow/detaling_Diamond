@@ -1,0 +1,18 @@
+.wrapper_services {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+
+}
+
+.services {
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 700
+}
+
+.services:hover {
+    color: #b308ec;
+}

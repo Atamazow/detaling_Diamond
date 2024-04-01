@@ -1,6 +1,12 @@
+.logoBorder {
+    display: flex;
+    align-items: center;
+}
+
 .wrapperlogo_border {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logoHeader {
@@ -8,7 +14,7 @@
 }
 
 .borderVertikal {
-    border-right:  3px solid  #38ff00;;
+    border-right:  3px solid  #b308ec;;
     width: 1px;
     height: 80px;
     margin-left: 30px;
@@ -21,6 +27,16 @@
 
 .logoTitle {
     font-size: 35px;
-    color: #38ff00;
+    color: #b308ec;
 }
 
+.wrapper_dataCompany {
+    display: flex;
+
+}
+
+.keys {
+     margin-left: 60px;
+    font-size: 17px;
+    font-weight: 700;
+}

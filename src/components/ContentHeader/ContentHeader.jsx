@@ -4,7 +4,7 @@ import logoPhone from "../../assets/icon/WDB+Fractal+Diamond.png";
 import ModalWindow from "../ModalWindow/ModalWindow";
 
 function ContentHeader(props) {
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 

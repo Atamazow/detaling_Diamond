@@ -36,13 +36,14 @@ function ModalContent(props) {
             type="text"
           />
         </div>
-        {/*<div className={styles.lastName}>*/}
-        {/*  <input*/}
-        {/*    className={styles.dataSize}*/}
-        {/*    placeholder="Фамилия..."*/}
-        {/*    type="text"*/}
-        {/*  />*/}
-        {/*</div>*/}
+        <div className={styles.lastName}>
+          <input
+            className={styles.dataSize}
+            name="user_lastname"
+            placeholder="Фамилия..."
+            type="text"
+          />
+        </div>
         <div className={styles.email}>
           <input
             name="user_email"
@@ -51,7 +52,7 @@ function ModalContent(props) {
             type="text"
           />
         </div>
-        <textarea name="message" />
+
         <input
           type="submit"
           value="Отправить заявку"

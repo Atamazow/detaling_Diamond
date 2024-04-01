@@ -4,7 +4,7 @@
 
 }
 .intro_content {
-    width: 1400px;
+    width: 1440px;
     margin: 20px auto;
     z-index: 10;
     color: white;
@@ -81,11 +81,11 @@
 
 .header_title_wrapper {
     z-index: 10;
-    color: #38ff00;
+    color: #b308ec;
    }
 
 .header_title {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
 }
 
@@ -97,7 +97,7 @@
 
 .header_btn {
     font-size: 24px;
-    border: 2px solid #38ff00 ;
+    border: 2px solid #b308ec ;
     padding: 15px;
     width: 200px;
     margin: 30px auto;
@@ -107,7 +107,24 @@
 }
 
 .header_btn:hover {
-    background-color: #38ff00;
+    background-color: #b308ec;
     color: white;
     transition: .5s;
+}
+
+@media screen and (max-width: 1500px) {
+    /*.intro_content {*/
+    /*    width: 1400px;*/
+    /*}*/
+    .header_title {
+        font-size: 40px;
+    }
+    .header_btn {
+        font-size: 18px;
+        width: 150px;
+        margin: 15px auto;
+    }
+    .header_text {
+        font-size: 22px;
+    }
 }
