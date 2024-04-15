@@ -19,17 +19,15 @@ function Card() {
 		},
 	]
 	return (
-		<div>
-			<div className={style.Cards}>
-				{cards.map(card => (
-					<div>
-						<div className={style.wrapperImage}>
-							<img className={style.cardImage} src={card.image} alt='' />
-						</div>
-						<div className={style.cardTitle}>{card.title}</div>
+		<div className={style.Cards}>
+			{cards.map(card => (
+				<div>
+					<div className={style.wrapperImage}>
+						<img className={style.cardImage} src={card.image} alt='' />
 					</div>
-				))}
-			</div>
+					<div className={style.cardTitle}>{card.title}</div>
+				</div>
+			))}
 		</div>
 	)
 }

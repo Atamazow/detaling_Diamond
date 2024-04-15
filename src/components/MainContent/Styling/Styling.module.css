@@ -1,18 +1,18 @@
-.protectionTitle {
+.stylingTitle {
 	color: #dbcbc3;
 	margin-top: 40px;
 	font-size: 28px;
 }
-.protectionBorder {
+.stylingBorder {
 	display: flex;
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
-.protectionBorderViolet {
+.stylingBorderViolet {
 	border-bottom: 1px solid #b308ec;
 	width: 50px;
 }
-.protectionBorderGrey {
+.stylingBorderGrey {
 	border-bottom: 1px solid #8d8d8d;
 	width: 100%;
 	margin-left: 10px;
@@ -25,13 +25,12 @@
 
 .cardTitle {
 	font-size: 20px;
-	margin-top: 13px;
 	color: #dbcbc3;
+	margin-top: 13px;
 }
 .wrapperImage {
 	width: 400px;
 	height: 283px;
-
 	overflow: hidden;
 	border-radius: 30px;
 }
