@@ -1,0 +1,19 @@
+.protectionTitle {
+	color: #dbcbc3;
+	margin-top: 40px;
+	font-size: 28px;
+}
+.protectionBorder {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.protectionBorderViolet {
+	border-bottom: 1px solid #b308ec;
+	width: 50px;
+}
+.protectionBorderGrey {
+	border-bottom: 1px solid #8d8d8d;
+	width: 100%;
+	margin-left: 10px;
+}

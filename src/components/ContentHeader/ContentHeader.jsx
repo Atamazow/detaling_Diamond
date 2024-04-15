@@ -30,8 +30,6 @@ function ContentHeader(props) {
         </div>
       </div>
       <motion.div
-        initial={{ opacity: 0, x: -2000 }}
-        animate={{ opacity: 1, x: 0 }}
         // translateX={{ 20 }}
         className="header_title_text"
       >
