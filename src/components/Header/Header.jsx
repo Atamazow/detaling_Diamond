@@ -2,9 +2,16 @@ import React from "react";
 import LogoHeader from "../../assets/icon/1678444501_gas-kvas-com-p-belaya-mashina-na-chernom-fone-risunok-22.png";
 import style from "./Header.module.css";
 import Services from "../Services/Services";
+import { motion } from "framer-motion";
+
 function Header(props) {
   return (
-    <div>
+    <motion.div
+      initial={{ y: -1000, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      tr
+      transition={{ duration: 0.8 }}
+    >
       <div className={style.wrapperlogo_border}>
         <div className={style.logoBorder}>
           <img className={style.logoHeader} src={LogoHeader} alt="" />
@@ -19,7 +26,7 @@ function Header(props) {
       </div>
       <div className={style.logoTitle}>Detailing diamond</div>
       <Services />
-    </div>
+    </motion.div>
   );
 }
 
