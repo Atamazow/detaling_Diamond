@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card'
 import style from './Protection.module.css'
 function Protection() {
 	return (
@@ -8,6 +9,7 @@ function Protection() {
 				<div className={style.protectionBorderViolet}></div>
 				<div className={style.protectionBorderGrey}></div>
 			</div>
+			<Card />
 		</div>
 	)
 }
