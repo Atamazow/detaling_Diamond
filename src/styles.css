@@ -133,3 +133,16 @@ body {
 	width: 1440px;
 	margin: auto;
 }
+.imageYellow {
+	width: 100%;
+}
+
+.imageYellow {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image: url('https://brooklandsdetailing.ru/templates/bpd/assets/img/background.png');
+	background-size: cover;
+	height: 500px; /* Поддерживает пропорции изображения */
+	object-fit: cover;
+	background-position: center;
+}

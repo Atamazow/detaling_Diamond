@@ -1,0 +1,44 @@
+.SoundWashingWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.wrapperSound {
+	width: 400px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	font-size: 20px;
+	color: #dbcbc3;
+	display: flex;
+	justify-content: space-between;
+	height: 150px;
+	position: relative;
+}
+
+.wrapperSound:hover {
+	border: 1px solid #b308ec;
+	transition: 0.5s;
+}
+
+.SoundTitle {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.iconSoundWashing {
+	border: 1px solid gray;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 25px;
+	height: 25px;
+	border-radius: 100px;
+}
+
+.iconArrowRightIcon {
+	position: absolute;
+}
