@@ -1,0 +1,76 @@
+.imageWrap {
+	background: url(https://i.ytimg.com/vi/RoBE9WQ8nSo/maxresdefault.jpg);
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-position: center;
+	margin-top: 40px;
+}
+
+.wrapperImage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white; /* Цвет текста */
+	filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+	position: relative;
+}
+
+.wrapperImage::before {
+}
+
+.wrapperJobPromise {
+	width: 1440px;
+	margin: auto;
+}
+.JobPromiseTitle {
+	color: #facd00;
+	font-size: 50px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.protectionBorder {
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.protectionBorderViolet {
+	border-bottom: 1px solid #facd00;
+	width: 50px;
+}
+.protectionBorderGrey {
+	border-bottom: 1px solid white;
+	opacity: 0.2;
+	width: 100%;
+	margin-left: 10px;
+}
+
+.contentJob {
+	display: flex;
+	justify-content: center;
+}
+.blockContentJob {
+	font-size: 20px;
+	color: #facd00;
+	width: 300px;
+}
+
+.JobZap {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #facd00;
+	width: 400px;
+	margin: 20px auto;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.JobZap:hover {
+	background-color: #facd00;
+	transition: 0.5s;
+}
