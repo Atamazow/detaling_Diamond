@@ -1,0 +1,51 @@
+.wrapperRedCar {
+	background: url('https://static.tildacdn.com/tild6264-6534-4538-b430-643834346130/Group_232.png');
+	background-size: cover;
+	height: 80vh; /* Поддерживает пропорции изображения */
+	object-fit: cover;
+	background-position: center;
+}
+.AboutUs {
+	width: 700px;
+}
+.wrapperRedCarContent {
+	width: 1440px;
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.aboutYears {
+	color: #dbcbc3;
+	font-size: 70px;
+	font-weight: 700;
+}
+
+.aboutText {
+	color: #dbcbc3;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.aboutBorder {
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px solid white;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	opacity: 0.2;
+}
+
+.AboutUsWrapper {
+	display: flex;
+}
+
+.leftAboutProcent {
+	margin-left: 100px;
+}
+
+.aboutTeam {
+	width: 700px;
+}
