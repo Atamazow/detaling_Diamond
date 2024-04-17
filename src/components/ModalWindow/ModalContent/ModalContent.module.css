@@ -1,50 +1,50 @@
 .wrapper_data {
-
 }
 
-.name > input,.lastName > input,.email > input {
-    width: 500px;
-    background-color: transparent;
-    z-index: 30;
-    padding: 20px 10px;
-    box-sizing: border-box;
-    border: 1px solid gray;
-    border-radius: 20px;
-
+.name > input,
+.lastName > input,
+.email > input {
+	width: 500px;
+	background-color: transparent;
+	z-index: 30;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	border-radius: 20px;
 }
 
 .dataSize {
-    font-size: 18px;
-    color: white;
+	font-size: 18px;
+	color: white;
 }
 
 .lastName {
-    margin-top: 10px;
-    margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .data_title {
-    font-size: 25px;
-    color: white;
-    margin-bottom: 40px;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 40px;
 }
 
 .dataBtn {
-    width: 500px;
-    margin-top: 10px;
-    text-align: center;
-    border: 1px solid#b308ec;
-    color: #b308ec;
-    cursor: pointer;
-    padding: 20px 0;
-    border-radius: 20px;
-    font-size: 20px;
-    transition: .5s;
+	width: 500px;
+	margin-top: 10px;
+	text-align: center;
+	border: 1px solid#facd00;
+	color: #facd00;
+	cursor: pointer;
+	padding: 20px 0;
+	border-radius: 20px;
+	font-size: 20px;
+	transition: 0.5s;
 }
 
 .dataBtn:hover {
-    background-color: #b308ec;
-    color: white;
-    transition: .5s;
-    font-size: 20px;
+	background-color: #facd00;
+	color: white;
+	transition: 0.5s;
+	font-size: 20px;
 }

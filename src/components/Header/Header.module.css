@@ -1,42 +1,41 @@
 .logoBorder {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .wrapperlogo_border {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .logoHeader {
-    width: 100px;
+	width: 100px;
 }
 
 .borderVertikal {
-    border-right:  3px solid  #b308ec;;
-    width: 1px;
-    height: 80px;
-    margin-left: 30px;
+	border-right: 3px solid #facd00;
+	width: 1px;
+	height: 80px;
+	margin-left: 30px;
 }
 
 .logoDD {
-    font-size: 70px;
-    margin-left: 30px;
+	font-size: 70px;
+	margin-left: 30px;
 }
 
 .logoTitle {
-    font-size: 35px;
-    color: #b308ec;
+	font-size: 35px;
+	color: #facd00;
 }
 
 .wrapper_dataCompany {
-    display: flex;
-
+	display: flex;
 }
 
 .keys {
-     margin-left: 60px;
-    font-size: 17px;
-    font-weight: 700;
+	margin-left: 60px;
+	font-size: 17px;
+	font-weight: 700;
 }

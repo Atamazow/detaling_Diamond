@@ -79,7 +79,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: #b308ec;
+	color: #facd00;
 }
 
 .header_title {
@@ -95,7 +95,7 @@ body {
 
 .header_btn {
 	font-size: 24px;
-	border: 2px solid #b308ec;
+	border: 2px solid #facd00;
 	padding: 15px;
 	width: 200px;
 	margin: 30px auto;
@@ -105,7 +105,7 @@ body {
 }
 
 .header_btn:hover {
-	background-color: #b308ec;
+	background-color: #facd00;
 	color: white;
 	transition: 0.5s;
 }
