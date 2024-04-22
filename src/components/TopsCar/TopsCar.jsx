@@ -48,9 +48,8 @@ function TopsCar() {
 						<div className={style.wrapperBlockIconImage}>
 							{cars.map(car => (
 								<div className={car.size ? style.imageBlock : style.blockImage}>
-									<div className={style.rightcon}>
-										<ArrowRightAltIcon className={style.iconRight} />
-									</div>
+									<ArrowRightAltIcon className={style.iconRight} />
+									<div className={style.carText}>{car.text}</div>
 									<img
 										className={
 											car.size ? style.imageTopCarBig : style.imageTopCar
@@ -64,6 +63,8 @@ function TopsCar() {
 						<div className={style.wrapperBlockIconImageTwo}>
 							{carsTwo.map(car => (
 								<div className={car.size ? style.imageBlock : style.blockImage}>
+									<ArrowRightAltIcon className={style.iconRight} />
+									<div className={style.carText}>{car.text}</div>
 									<img
 										className={
 											car.size ? style.imageTopCarBig : style.imageTopCar

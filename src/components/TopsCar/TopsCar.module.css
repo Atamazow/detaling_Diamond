@@ -30,7 +30,7 @@
 	width: 600px;
 	border-radius: 20px;
 	overflow: hidden;
-
+	position: relative;
 	cursor: pointer;
 }
 .blockImage {
@@ -38,7 +38,7 @@
 	width: 400px;
 	overflow: hidden;
 	border-radius: 20px;
-
+	position: relative;
 	cursor: pointer;
 }
 .imageTopCar:hover {
@@ -66,13 +66,62 @@
 	cursor: pointer;
 }
 
-.rightIcon {
-	position: relative;
+.iconRight {
+	z-index: 20;
+	position: absolute;
+	bottom: 20spx;
 	background-color: #f0e4df;
+	width: 30px !important;
+	height: 30px !important;
+	border-radius: 20px;
+	right: 20px;
+	bottom: 20px;
 }
 
-.iconRight {
+.carText {
 	position: absolute;
-	bottom: 202spx;
-	right: 20px;
+	left: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #f0e4df;
+	bottom: 20px;
+	z-index: 20;
+}
+
+@media screen and (max-width: 1140px) {
+	.blockImageText {
+		width: 1140px;
+		margin: auto;
+	}
+	.imageTopCarBig {
+		width: 400px;
+		border-radius: 20px;
+		transition: transform 0.5s ease;
+		height: auto;
+		cursor: pointer;
+	}
+	.blockImage {
+		display: flex;
+		width: 260px;
+		overflow: hidden;
+		border-radius: 20px;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.imageTopCar {
+		width: 300px;
+		height: auto;
+		transition: transform 0.5s ease;
+		border-radius: 20px;
+	}
+
+	.imageBlock {
+		align-items: end;
+		width: 400px;
+		border-radius: 20px;
+		overflow: hidden;
+		position: relative;
+		cursor: pointer;
+	}
 }
