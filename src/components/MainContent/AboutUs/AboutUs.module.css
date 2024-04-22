@@ -1,7 +1,7 @@
 .wrapperRedCar {
 	background: url('https://static.tildacdn.com/tild6264-6534-4538-b430-643834346130/Group_232.png');
 	background-size: cover;
-	height: 80vh; /* Поддерживает пропорции изображения */
+	height: 100%; /* Поддерживает пропорции изображения */
 	object-fit: cover;
 	background-position: center;
 }
