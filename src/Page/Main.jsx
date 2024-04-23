@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer/Footer'
 import AboutUs from '../components/MainContent/AboutUs/AboutUs'
 import ContentTitle from '../components/MainContent/ContentTitle/ContentTitle'
 import JobPromise from '../components/MainContent/JobPromise/JobPromise'
@@ -22,6 +23,7 @@ function Main() {
 			<AboutUs />
 			<JobPromise />
 			<TopsCar />
+			<Footer />
 		</div>
 	)
 }
