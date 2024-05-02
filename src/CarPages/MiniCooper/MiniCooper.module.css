@@ -1,4 +1,4 @@
-/* .carImage {
+.carImage {
 	position: relative;
 	background: url('https://static.tildacdn.com/tild6231-3365-4135-a131-383136653765/2.jpg');
 	background-size: cover;
@@ -23,4 +23,4 @@
 	margin: auto;
 	position: relative;
 	z-index: 1; /* Гарантирует, что контент будет виден поверх тени */
-} */
+}
