@@ -1,6 +1,7 @@
 .logoBorder {
 	display: flex;
 	align-items: center;
+	text-decoration: none;
 }
 
 .wrapperlogo_border {
@@ -23,6 +24,7 @@
 .logoDD {
 	font-size: 70px;
 	margin-left: 30px;
+	color: #facd00;
 }
 
 .logoTitle {
@@ -31,6 +33,7 @@
 }
 
 .wrapper_dataCompany {
+	color: white;
 	display: flex;
 }
 

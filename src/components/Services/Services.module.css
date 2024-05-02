@@ -6,6 +6,7 @@
 }
 
 .services {
+	color: white;
 	text-align: center;
 	cursor: pointer;
 	transition: 0.5s;

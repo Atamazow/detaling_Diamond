@@ -1,0 +1,26 @@
+/* .carImage {
+	position: relative;
+	background: url('https://static.tildacdn.com/tild6231-3365-4135-a131-383136653765/2.jpg');
+	background-size: cover;
+	height: 100vh; /* Поддерживает пропорции изображения */
+	object-fit: cover;
+	background-position: center;
+}
+
+.shadowLayer {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5); /* Черная тень с прозрачностью 50% */
+	z-index: 0; /* Тень под контентом, но над изображением */
+}
+
+.carContent {
+	width: 1440px;
+	margin: auto;
+	position: relative;
+	z-index: 1; /* Гарантирует, что контент будет виден поверх тени */
+} */

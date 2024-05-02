@@ -36,7 +36,6 @@ function Footer() {
 			icons: true,
 		},
 	]
-	console.log(services)
 	return (
 		<div className={style.wrapperFooter}>
 			<div className={style.footer}>
