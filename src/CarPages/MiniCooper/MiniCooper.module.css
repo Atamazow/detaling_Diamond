@@ -7,7 +7,16 @@
 	background-position: center;
 	position: relative;
 }
-
+.carImage::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 40%; /* Высота градиента от нижней части изображения */
+	background: linear-gradient(to top, rgb(0, 0, 0) 0%, transparent 100%);
+	z-index: 2; /* Градиент поверх изображения и тени */
+}
 .shadowLayer {
 	content: '';
 	position: absolute;
