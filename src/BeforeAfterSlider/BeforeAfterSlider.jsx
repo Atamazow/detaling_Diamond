@@ -44,7 +44,8 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
 			style={{
 				position: 'relative',
 				width: '100%',
-				height: '500px',
+				height: '800px',
+				borderRadius: '50px',
 				cursor: 'ew-resize',
 				userSelect: 'none',
 				overflow: 'hidden',
@@ -56,7 +57,7 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
 					position: 'absolute',
 					left: '0',
 					width: '100%',
-					height: '100%',
+					height: '800px',
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 				}}
@@ -67,7 +68,7 @@ function BeforeAfterSlider({ beforeImage, afterImage }) {
 					position: 'absolute',
 					left: '0',
 					width: '100%',
-					height: '100%',
+					height: '800px',
 					backgroundSize: 'cover',
 					backgroundPosition: 'center',
 					clipPath: `polygon(0 0, ${sliderPosition}% 0, ${sliderPosition}% 100%, 0 100%)`,

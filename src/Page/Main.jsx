@@ -1,5 +1,4 @@
 import React from 'react'
-import BeforeAfterSlider from '../BeforeAfterSlider/BeforeAfterSlider'
 import Footer from '../components/Footer/Footer'
 import AboutUs from '../components/MainContent/AboutUs/AboutUs'
 import ContentTitle from '../components/MainContent/ContentTitle/ContentTitle'
@@ -25,14 +24,7 @@ function Main() {
 			<JobPromise />
 			<TopsCar />
 			<Footer />
-			<div>
-				<div style={{ width: '800px', margin: 'auto' }}>
-					<BeforeAfterSlider
-						beforeImage='https://static.tildacdn.com/tild6139-3066-4337-b661-663864336662/Mini_Countryman_2_1.jpg'
-						afterImage='https://static.tildacdn.com/tild3939-3839-4362-a565-313431623161/Mini_Countryman_1.jpg'
-					/>
-				</div>
-			</div>
+			<div></div>
 		</div>
 	)
 }
