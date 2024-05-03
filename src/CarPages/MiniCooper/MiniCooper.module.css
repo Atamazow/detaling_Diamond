@@ -1,3 +1,6 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
 .carImage {
 	position: relative;
 	background: url('https://static.tildacdn.com/tild6231-3365-4135-a131-383136653765/2.jpg');
@@ -97,4 +100,37 @@
 
 .imageBeforeAfter {
 	height: 1100px;
+}
+
+.workTitle {
+	font-size: 48px;
+	color: #dbcbc3;
+}
+.completedWork {
+	width: 1440px;
+	margin: auto;
+}
+.wrapperWorks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.works {
+	color: #645d59;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 330px;
+}
+.borderWork {
+	border-bottom: 1px solid gray;
+	opacity: 0.4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.text {
+	color: #d9c9c1;
+	font-size: 20px;
 }
