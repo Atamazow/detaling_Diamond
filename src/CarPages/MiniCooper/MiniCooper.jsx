@@ -65,6 +65,7 @@ function MiniCooper() {
 					<Carousel />
 				</div>
 			</div>
+
 			<Footer />
 		</>
 	)
