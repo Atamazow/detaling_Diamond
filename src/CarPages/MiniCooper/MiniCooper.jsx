@@ -59,7 +59,11 @@ function MiniCooper() {
 						</dlv>
 					))}
 				</div>
-				<Carousel />
+			</div>
+			<div className={style.imageCarousel}>
+				<div className={style.wrapperCarousel}>
+					<Carousel />
+				</div>
 			</div>
 			<Footer />
 		</>
