@@ -14,7 +14,7 @@ function Header(props) {
 			transition={{ duration: 0.8 }}
 		>
 			<div className={style.wrapperlogo_border}>
-				<Link className={style.logoBorder}>
+				<Link to='/' className={style.logoBorder}>
 					<img className={style.logoHeader} src={LogoHeader} alt='' />
 					<div className={style.borderVertikal}></div>
 					<div className={style.logoDD}>DD</div>

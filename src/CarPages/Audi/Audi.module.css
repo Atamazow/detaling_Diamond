@@ -1,0 +1,101 @@
+.carImage {
+	position: relative;
+	background: url('https://static.tildacdn.com/tild3830-6632-4033-a335-373934643937/DSCF2235_1.jpg');
+	background-size: cover;
+	height: 100vh; /* Поддерживает пропорции изображения */
+	background-position: center;
+	position: relative;
+}
+.carImage::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 40%; /* Высота градиента от нижней части изображения */
+	background: linear-gradient(to top, rgb(0, 0, 0) 0%, transparent 100%);
+	z-index: 2; /* Градиент поверх изображения и тени */
+}
+
+.cartImageModal {
+	position: relative;
+	background: url('https://static.tildacdn.com/tild3830-6632-4033-a335-373934643937/DSCF2235_1.jpg');
+	background-size: cover;
+	height: 100vh; /* Поддерживает пропорции изображения */
+	object-fit: cover;
+	background-position: center;
+	position: relative;
+}
+
+.shadowLayer {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5); /* Черная тень с прозрачностью 50% */
+	z-index: 0; /* Тень под контентом, но над изображением */
+}
+
+.carContent {
+	width: 1440px;
+	margin: auto;
+	position: relative;
+	z-index: 1; /* Гарантирует, что контент будет виден поверх тени */
+}
+.contentAudi {
+	position: absolute;
+}
+.titleAudi {
+	font-size: 24px;
+	color: #dbcbc3;
+	font-weight: 700;
+}
+.recoveryBorder {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	opacity: 0.6;
+}
+
+.recoveryBorderViolet {
+	border-bottom: 1px solid #facd00;
+	width: 50px;
+}
+.recoveryBorderGrey {
+	border-bottom: 1px solid #8d8d8d;
+	width: 100%;
+	margin-left: 10px;
+}
+
+.colorAudi {
+	font-size: 78px;
+	font-weight: 700;
+	width: 900px;
+	color: #dbcbc3;
+	position: relative;
+	display: flex;
+}
+
+.btnAudi {
+	background-color: transparent;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	border: none;
+	width: 200px;
+	border-radius: 60px;
+	padding: 20px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	border: 1px solid #facd00;
+	transition: 0.5s;
+}
+
+.btnAudi:hover {
+	background-color: #facd00;
+	transition: 0.5s;
+}
