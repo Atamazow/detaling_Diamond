@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BeforeAfterSlider from '../../BeforeAfterSlider/BeforeAfterSlider'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
 import Maps from '../../components/Maps/Maps'
+import ModalWindow from '../../components/ModalWindow/ModalWindow'
 import Carousel from './Carousel'
 import style from './MiniCooper.module.css'
 const works = [
@@ -16,12 +17,19 @@ const works = [
 	{ id: '8', text: 'Полировка всех черных глянцевых элементов кузова' },
 ]
 function MiniCooper() {
+	const [isModalOpen, setIsModalOpen] = useState(false)
+	const openModal = () => setIsModalOpen(true)
+	const closeModal = () => setIsModalOpen(false)
+
 	return (
 		<>
-			<div className={style.carImage}>
+			<div className={isModalOpen ? style.cartImageModal : style.carImage}>
 				<div className={style.shadowLayer}></div> {/* Слой тени */}
 				<div className={style.carContent}>
 					<Header />
+					{isModalOpen && (
+						<ModalWindow isModalOpen={isModalOpen} closeModal={closeModal} />
+					)}
 					<div className={style.contentCooper}>
 						<div className={style.titleCooper}>Кейс</div>
 						<div className={style.recoveryBorder}>
@@ -30,8 +38,10 @@ function MiniCooper() {
 						</div>
 						<div>
 							<div className={style.colorCooper}>
-								Смена цвета <br /> Mini Countryman{' '}
-								<div className={style.btnCooper}>Записаться</div>
+								Смена цвета <br /> Mini Countryman
+								<div onClick={openModal} className={style.btnCooper}>
+									Записаться
+								</div>
 							</div>
 						</div>
 					</div>

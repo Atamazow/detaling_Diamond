@@ -17,6 +17,17 @@
 	background: linear-gradient(to top, rgb(0, 0, 0) 0%, transparent 100%);
 	z-index: 2; /* Градиент поверх изображения и тени */
 }
+
+.cartImageModal {
+	position: relative;
+	background: url('https://static.tildacdn.com/tild6231-3365-4135-a131-383136653765/2.jpg');
+	background-size: cover;
+	height: 100vh; /* Поддерживает пропорции изображения */
+	object-fit: cover;
+	background-position: center;
+	position: relative;
+}
+
 .shadowLayer {
 	content: '';
 	position: absolute;
