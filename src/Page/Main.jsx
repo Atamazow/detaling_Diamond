@@ -7,6 +7,7 @@ import Protection from '../components/MainContent/Protection/Protection'
 import Recovery from '../components/MainContent/Recovery/Recovery'
 import SoundWashing from '../components/MainContent/SoundWashing/SoundWashing'
 import Styling from '../components/MainContent/Styling/Styling'
+import Maps from '../components/Maps/Maps'
 import TopsCar from '../components/TopsCar/TopsCar'
 
 function Main() {
@@ -23,8 +24,8 @@ function Main() {
 			<AboutUs />
 			<JobPromise />
 			<TopsCar />
+			<Maps />
 			<Footer />
-			<div></div>
 		</div>
 	)
 }

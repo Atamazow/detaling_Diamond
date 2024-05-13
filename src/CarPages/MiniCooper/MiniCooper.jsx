@@ -2,20 +2,20 @@ import React from 'react'
 import BeforeAfterSlider from '../../BeforeAfterSlider/BeforeAfterSlider'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
+import Maps from '../../components/Maps/Maps'
 import Carousel from './Carousel'
 import style from './MiniCooper.module.css'
-
+const works = [
+	{ id: '1', text: 'Покраска капота, переднего бампера, заднего бампера' },
+	{ id: '2', text: 'Оклейка кузова с проемами в желтую пленку TeckWrap' },
+	{ id: '3', text: 'Антихром всех хромированных элементов' },
+	{ id: '4', text: 'Реставрация и покраска дисков в черный глянец' },
+	{ id: '5', text: 'Реставрация фар' },
+	{ id: '6', text: 'Детейлинг химчистка салона' },
+	{ id: '7', text: 'Покрытие пленки керамикой для матовых пленок' },
+	{ id: '8', text: 'Полировка всех черных глянцевых элементов кузова' },
+]
 function MiniCooper() {
-	const works = [
-		{ id: '1', text: 'Покраска капота, переднего бампера, заднего бампера' },
-		{ id: '2', text: 'Оклейка кузова с проемами в желтую пленку TeckWrap' },
-		{ id: '3', text: 'Антихром всех хромированных элементов' },
-		{ id: '4', text: 'Реставрация и покраска дисков в черный глянец' },
-		{ id: '5', text: 'Реставрация фар' },
-		{ id: '6', text: 'Детейлинг химчистка салона' },
-		{ id: '7', text: 'Покрытие пленки керамикой для матовых пленок' },
-		{ id: '8', text: 'Полировка всех черных глянцевых элементов кузова' },
-	]
 	return (
 		<>
 			<div className={style.carImage}>
@@ -65,7 +65,7 @@ function MiniCooper() {
 					<Carousel />
 				</div>
 			</div>
-
+			<Maps />
 			<Footer />
 		</>
 	)
