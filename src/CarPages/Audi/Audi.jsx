@@ -5,6 +5,22 @@ import ModalWindow from '../../components/ModalWindow/ModalWindow'
 
 import Footer from '../../components/Footer/Footer'
 import style from './Audi.module.css'
+const works = [
+	{ id: '1', text: 'Полировка кузова, подготовка под оклейку' },
+	{ id: '2', text: 'Оклейка кузова в зеленую матовую пленку TeckWrap' },
+	{
+		id: '3',
+		text: 'Оклейка кузова вторым слоем в защитную матовую пленку Hexis',
+	},
+	{ id: '4', text: 'Оклейка фар в полиуретановую пленку Hexis' },
+	{ id: '5', text: 'Покрытие пленки керамикой для матовых пленок' },
+	{ id: '6', text: 'Покрытие антидождь на все стекла' },
+	{ id: '7', text: 'Оклейка лобового стекла пленкой ClearPlex' },
+	{
+		id: '8',
+		text: 'Оклейка глянцевых элементов салона в полиуретановую пленку',
+	},
+]
 function Audi() {
 	const [isModalOpen, setIsModalOpen] = useState(false)
 	const openModal = () => setIsModalOpen(true)
@@ -43,6 +59,20 @@ function Audi() {
 					beforeImage='https://static.tildacdn.com/tild3732-6464-4332-b931-343532363864/Frame_233.png'
 					afterImage='https://static.tildacdn.com/tild3534-3836-4362-a130-616137333538/Frame_234.png'
 				/>
+			</div>
+			<div className={style.completedWork}>
+				<div className={style.workTitle}>Выполненные работы</div>
+				<div className={style.wrapperWorks}>
+					{works.map(work => (
+						<dlv className={style.works}>
+							<div style={{ color: '#645d59', fontSize: '20px' }}>
+								{work.id}
+							</div>
+							<div className={style.borderWork}></div>
+							<div className={style.text}>{work.text}</div>
+						</dlv>
+					))}
+				</div>
 			</div>
 			<Footer />
 		</>
