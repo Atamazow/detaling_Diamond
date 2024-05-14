@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import BeforeAfterSlider from '../../BeforeAfterSlider/BeforeAfterSlider'
+import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
 import ModalWindow from '../../components/ModalWindow/ModalWindow'
-
-import Footer from '../../components/Footer/Footer'
 import style from './Audi.module.css'
+import Carousel from './Carousel'
 const works = [
 	{ id: '1', text: 'Полировка кузова, подготовка под оклейку' },
 	{ id: '2', text: 'Оклейка кузова в зеленую матовую пленку TeckWrap' },
@@ -72,6 +72,11 @@ function Audi() {
 							<div className={style.text}>{work.text}</div>
 						</dlv>
 					))}
+				</div>
+			</div>
+			<div className={style.imageCarousel}>
+				<div className={style.wrapperCarousel}>
+					<Carousel />
 				</div>
 			</div>
 			<Footer />
